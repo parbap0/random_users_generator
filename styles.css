@@ -4,14 +4,20 @@ article {
   margin: 10px;
   padding: 10px;
   text-align: center;
+  background: white;
+  color: black;
 }
 
 body h1 {
   text-align: center;
+  color: wheat;
 }
 
+body {
+  background: linear-gradient(to bottom, rgb(97, 45, 156), #333);
+}
 .main {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
 }

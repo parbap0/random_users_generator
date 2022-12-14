@@ -14,7 +14,7 @@ const createUsers = function (ele) {
   let card = document.createElement("article");
   let userImage = document.createElement("img");
   userImage.src = `${ele.picture.large}`;
-  let userName = document.createElement("h1");
+  let userName = document.createElement("h2");
   userName.innerText = `${
     ele.name.title + " " + ele.name.first + " " + ele.name.last
   }`;
